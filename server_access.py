@@ -13,7 +13,7 @@ def parser(test_string):
     ipaddresses_pattern="(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
     accessdate_pattern="(?:0[1-9]|[12][0-9]|3[01])/(?:[a-zA-Z]{3})/(?:20[0-9][0-9])"
     accesstime_pattern="[:](?:\d\d)[:](?:\d\d)[:](?:\d\d)"
-    httpmethod_pattern="GET|POST"
+    httpmethod_pattern="GET|POST|HEAD"
     httpversion_pattern="HTTP/\d.\d\s\d+\s.+"
     hostname_pattern="[a-z]+[0-9]*\s"
     app_profile_pattern="[a-z]+[0-9]*\-[a-z]+[\:]*"
